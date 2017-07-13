@@ -26,6 +26,20 @@ const leadSchema = new mongoose.Schema({
     maxLength: 12,
     trim: true
   },
+  street: {
+    type: String,
+    required: true,
+    maxlength: 255,
+    trim: true
+  },
+  lat: {
+    type: Number,
+    min: 0
+  },
+  lng: {
+    type: Number,
+    min: 0
+  },
   createdAt: {
     type: Date,
     default: Date.now
