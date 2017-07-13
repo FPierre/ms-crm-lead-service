@@ -11,14 +11,14 @@ const leadSchema = new mongoose.Schema({
     maxLength: 255,
     trim: true
   },
+  gender: {
+    type: String,
+    enum: ['female', 'male']
+  },
   email: {
     type: String,
     maxLength: 255,
     trim: true
-  },
-  gender: {
-    type: String,
-    enum: ['female', 'male']
   },
   phone: {
     type: String,
