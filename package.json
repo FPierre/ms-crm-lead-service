@@ -1,0 +1,9 @@
+3A{
+  "name": "ms-crm-lead-service",
+  "version": "0.0.1",
+  "main": "./src/lead-service.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/lead-service.js"
+  }
+}
